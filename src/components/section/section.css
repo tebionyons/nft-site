@@ -1,0 +1,13 @@
+.section__page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: var(--gradient-txt);
+    color: var(--color-txt);
+    margin-top: 2rem;
+    
+}
+
+.section__page div{
+    display: flex;
+}

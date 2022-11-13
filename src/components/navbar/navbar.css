@@ -1,0 +1,42 @@
+
+
+body{
+    font-family: var(--font-family);
+}
+
+.nft__navbar-links-container{
+   display: flex;
+   flex-direction: row;
+   gap: 3.5rem;
+}
+.connect{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.nft__navbar{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 2rem 6rem;
+
+}
+
+.nft__navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft__navbar-links-logo img{
+    height: 32px;
+}
+.connect  button{
+    background: var(--gradient-txt);
+    color: var(--color-txt);
+    padding: .5rem 1rem;
+    border-radius: 10px;
+    border: none;
+}
