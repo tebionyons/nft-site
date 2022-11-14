@@ -5,7 +5,7 @@ const Section = () => {
   return (
     <div className='section__page'>
         <div>
-      <img className='img-token' src='./images/tokenn.png' />
+      <img className= 'img-token' src='./images/tokenn.png' alt='token'/>
       <h1>Token</h1>
         </div>
      

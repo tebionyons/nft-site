@@ -1,0 +1,67 @@
+// eslint-disable-next-line import/no-anonymous-default-export
+export default [
+  {
+    id: 1,
+    title: "Desert king",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+    time: "1MBT per night",
+    img: "Frame1.png",
+  },
+  {
+    id: 2,
+    title: "Desert king",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+    time: "1MBT per night",
+    img: "Frame2.png",
+  },
+  {
+    id: 3,
+    title: "Desert king",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+    time: "1MBT per night",
+    img: "Frame3.png",
+  },
+  {
+    id: 4,
+    title: "Desert king",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+    time: "1MBT per night",
+    img: "Frame4.png",
+  },
+  {
+    id: 5,
+    title: "Desert king",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+    time: "1MBT per night",
+    img: "Frame5.png",
+  },
+  {
+    id: 6,
+    title: "Desert king",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+    time: "1MBT per night",
+    img: "Frame6.png",
+  },
+  {
+    id: 7,
+    title: "Desert king",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+    time: "1MBT per night",
+    img: "Frame7.png",
+  },
+  {
+    id: 8,
+    title: "Desert king",
+    distance: "2345km away",
+    availability: "available for 2weeks stay",
+    time: "1MBT per night",
+    img: "Frame8.png",
+  }
+];

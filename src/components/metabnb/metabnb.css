@@ -1,0 +1,51 @@
+
+
+.meta__description{
+    width: 415px;
+    height: 136px;
+    font-size: 18px;
+    line-height: 35px;
+}
+
+.meta__title{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.meta__content{
+   padding-left: 4rem;
+    background: var(--gradient-txt);
+    color: var(--color-txt);
+    margin-top: 1.5rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    display: flex;
+   gap: 3rem;
+    
+}
+
+.meta__content button{
+    padding: .7rem 1rem;
+    border-radius: 8px;
+    border: none;
+   width: 156px;
+    font-size: 16px;
+    color: #A02279 ;
+    font-weight: 400;
+    margin-top: 4rem;
+}
+
+.turned__images{
+    
+
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+
+.turned__images img{
+    width: 700px;
+    
+}

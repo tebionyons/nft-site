@@ -1,0 +1,13 @@
+.main__footer{
+    color: var(--color-txt);
+    background: #1D1D1E;
+    display: flex;
+    justify-content: space-around;
+    line-height: 2;
+   
+}
+
+.footer__main-item{
+    padding: 2.5rem;
+    min-width: 12.5rem;
+}

@@ -1,0 +1,50 @@
+.frame__ {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.card__frame img {
+  width: 260px;
+  height: 265px;
+}
+
+.card__frame p {
+  font-size: 12px;
+  padding-top: 0.4rem;
+  margin-left: 0.5rem;
+  color: var(--color-maintxt);
+}
+
+.card__frame {
+  margin-left: 3rem;
+  border: 1px solid #D7D7D7;
+  border-radius: 15px;
+  padding: 0.7rem;
+ 
+}
+.pernight {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+
+.title__distance img {
+  width: 12px;
+  height: 12px;
+  border-radius: 1px;
+}
+.star__ratings {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.card__list {
+  display: flex;
+  flex-wrap: wrap;
+  height: 110vh;
+  justify-content: center;
+ 
+}
+

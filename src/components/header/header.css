@@ -5,6 +5,9 @@
    flex: 1;
    justify-content: center;
    align-items: center;
+   padding-top: 10rem;
+   margin-right: 16rem;
+   
  
  
   
@@ -44,4 +47,9 @@
     background: var(--gradient-txt) ;
     color: var(--color-txt);
     cursor: pointer;
+}
+
+.header__img img{
+    width: 400px;
+    height: 360px;
 }
