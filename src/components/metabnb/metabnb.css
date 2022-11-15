@@ -143,3 +143,9 @@
         margin-top: 2rem;
     }
 }
+
+@media(max-width: 380px){
+    .meta__description{
+        width: 100%;
+    }
+}

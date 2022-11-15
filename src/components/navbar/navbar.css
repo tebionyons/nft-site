@@ -113,3 +113,28 @@ body{
         height: 40px;
     }
 }
+@media(max-width: 380px){
+    .icon{
+        display: block;
+    }
+    .nft__navbar p{
+        display: none;
+    }
+    .nft__navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 2rem 1rem; */
+        
+       
+    }
+    .nft__navbar-links-logo img{
+        height: 18px;
+        
+    }
+    .openModalBtn{
+        width: 100%;
+        padding: .2rem .5rem;
+        height: 45px;
+    }
+}
