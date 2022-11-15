@@ -55,10 +55,10 @@
         width: 350px;
         height: 136px;
         font-size: 18px;
-        line-height: 35px;
+        line-height: 28px;
     } 
     .meta__content{
-        padding-left: 4rem;
+        padding-left: 2rem;
          background: var(--gradient-txt);
          color: var(--color-txt);
          margin-top: 110rem;
@@ -78,5 +78,19 @@
        padding-top: 2rem;
         width: 100%;
         padding-right: 2rem;
+    }
+    .meta__title{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .meta__content button{
+        padding: .5rem .7rem;
+        border-radius: 8px;
+        border: none;
+       width: 140px;
+        font-size: 16px;
+        color: #A02279 ;
+        font-weight: 400;
+        margin-top: 2rem;
     }
 }

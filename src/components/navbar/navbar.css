@@ -71,4 +71,20 @@ body{
     .nft__navbar p{
         display: none;
     }
+    .nft__navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem 1rem;
+        
+       
+    }
+    .nft__navbar-links-logo img{
+        height: 25px;
+    }
+    .openModalBtn{
+        width: 140px;
+        padding: .2rem .5rem;
+        height: 40px;
+    }
 }

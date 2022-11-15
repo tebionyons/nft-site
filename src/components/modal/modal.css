@@ -74,3 +74,18 @@ border: 1px solid #CFD8DC;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+@media(max-width: 480px){
+   .main__modal{
+    position: absolute;
+    left: 5%;
+    width: 400px;
+   }
+   .modal__forward{
+    padding-left: 9rem;
+}
+
+.modal__forward2{
+    padding-left: 6.9rem;
+}
+}
