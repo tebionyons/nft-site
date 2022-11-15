@@ -103,3 +103,18 @@ border: 1px solid #CFD8DC;
      padding-left: 1rem;
  }
  }
+
+ @media(max-width: 380px){
+    .main__modal{
+     position: absolute;
+     left: 7.5%;
+     width: 300px;
+    }
+    .modal__forward{
+     padding-left: 3.5rem;
+ }
+ 
+ .modal__forward2{
+     padding-left: 1rem;
+ }
+ }
