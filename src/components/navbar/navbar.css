@@ -20,6 +20,7 @@ body{
  justify-content: space-between;
  align-items: center;
  padding: 2rem 6rem;
+ 
 
 }
 
@@ -33,10 +34,41 @@ body{
 .nft__navbar-links-logo img{
     height: 32px;
 }
-.connect  button{
+.openModalBtn{
     background: var(--gradient-txt);
     color: var(--color-txt);
     padding: .5rem 1rem;
     border-radius: 10px;
     border: none;
+    height: 48px;
+    width: 170px;
+    cursor: pointer;
+}
+.nft__navbar-menu-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    position: absolute;
+    padding: 2rem;
+    right: 0;
+    top: 40px;
+
+}
+
+.icon{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+@media(max-width: 480px){
+    .icon{
+        display: block;
+    }
+    .nft__navbar p{
+        display: none;
+    }
 }

@@ -11,3 +11,22 @@
     padding: 2.5rem;
     min-width: 12.5rem;
 }
+
+.socials{
+    display: flex;
+    gap: 2rem;
+    margin: 3rem 0;
+    
+}
+
+@media(max-width: 480px){
+    .main__footer{
+        color: var(--color-txt);
+        background: #1D1D1E;
+        display: flex;
+        flex-direction: column;
+       
+        line-height: 2;
+       
+    }
+}

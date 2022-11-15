@@ -3,24 +3,24 @@
   gap: 0.3rem;
 }
 
-.card__frame img {
+.card__frame-main img {
   width: 260px;
   height: 265px;
 }
 
-.card__frame p {
+.card__frame-main p {
   font-size: 12px;
   padding-top: 0.4rem;
   margin-left: 0.5rem;
   color: var(--color-maintxt);
 }
 
-.card__frame {
-  margin-left: 1.5rem;
+.card__frame-main{
+  margin-left: 3rem;
   border: 1px solid #D7D7D7;
   border-radius: 15px;
   padding: 0.7rem;
- margin-bottom: 1rem;
+  margin-top: 1.5rem;
  
 }
 .pernight {
@@ -46,21 +46,6 @@
   flex-wrap: wrap;
   height: 110vh;
   justify-content: center;
-  margin-bottom: 8rem;
  
 }
 
-@media(max-width: 480px){
-  .card__list {
-    display: flex;
-  flex-wrap: unset;
-    
-    justify-content: flex-start;
-    margin-bottom: 0rem;
-   
-  }
-  .card__frame img {
-    width: 260px;
-    height: 200px;
-  }
-}

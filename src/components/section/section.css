@@ -1,13 +1,14 @@
-.section__page{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background: var(--gradient-txt);
-    color: var(--color-txt);
-
+.section__page img{
     
+    width: 100%;
 }
 
-.section__page div{
-    display: flex;
+@media(max-width: 480px){
+    .section__page img{
+    
+        width: 100%;
+        height: 30px;
+        
+        
+    }
 }

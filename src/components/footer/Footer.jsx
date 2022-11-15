@@ -7,6 +7,15 @@ const Footer = () => {
           <div className='footer__main-item'>
      <img src='./images/logofoo.png' alt='logo' />
      <img src='./images/textfooter.png' alt='logo'/>
+     <div className='socials'>
+      <img src='./images/facebook.png' alt='socials'/>
+      <img src='./images/real.png' alt='socials'/>
+      <img src='./images/twitter.png' alt='socials'/>
+     </div>
+     
+     <footer>&copy;   2022 Metabnb</footer>
+     
+     
      </div>
      <div className='footer__main-item'>
         <h2 className='footer__title'>Community</h2>

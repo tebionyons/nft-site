@@ -3,11 +3,15 @@ import { Navbar, Header, Section, Main, Card, Metabnb, Footer } from "./componen
 import data from "Data";
 import "../src/components/card/card.css";
 
+
 import "./App.css";
 
 function App() {
+ 
   const cards = data.map((card) => {
     return (
+      
+      
       <Card
         title={card.title}
         img={card.img}
@@ -15,6 +19,7 @@ function App() {
         time={card.time}
         availability={card.availability}
       />
+      
     );
   });
 

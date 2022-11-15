@@ -1,0 +1,44 @@
+.second__nav{
+    display: flex;
+   justify-content: center;
+    margin-top: 4rem;
+    gap: 4rem;
+    margin-right: 3rem;
+    align-items: center;
+    margin-bottom: 1rem;
+ 
+}
+
+ ::placeholder{
+
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+}
+
+input{
+    width: 161px;
+    height: 40px;
+   border: 1px solid #B4B4B4;
+    padding: .5rem 1rem;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.footer__{
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.location__img{
+    display: flex;
+    align-items: center;
+}
+
+.second__nav img{
+    display: flex;
+   
+ align-items: center;
+ height: 48px;
+    width: 160px;
+}

@@ -1,12 +1,12 @@
 import React from "react";
-// eslint-disable-next-line no-unused-vars
-import Data from "Data";
-import "./card.css";
+import "./placecard.css";
 
-function Card(props) {
+
+
+const PlaceCard = (props) => {
   return (
     <div className="card__frame__border" >
-    <div className="card__frame">
+    <div className="card__frame-main">
       <img src={`./images/${props.img}`} alt="frame one" />
       <div className="frame__">
         <div className="title__distance">
@@ -28,7 +28,9 @@ function Card(props) {
       </div>
     </div>
      </div>
+        
+    
   );
-}
+};
 
-export default Card;
+export default PlaceCard;

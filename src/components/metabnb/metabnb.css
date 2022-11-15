@@ -49,3 +49,34 @@
     width: 700px;
     
 }
+
+@media(max-width: 480px){
+    .meta__description{
+        width: 350px;
+        height: 136px;
+        font-size: 18px;
+        line-height: 35px;
+    } 
+    .meta__content{
+        padding-left: 4rem;
+         background: var(--gradient-txt);
+         color: var(--color-txt);
+         margin-top: 110rem;
+         padding-top: 8rem;
+         padding-bottom: 8rem;
+         display: flex;
+         flex-direction: column;
+        gap: 0rem;
+         
+     }
+     .turned__images img{
+    
+
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+       padding-top: 2rem;
+        width: 100%;
+        padding-right: 2rem;
+    }
+}
