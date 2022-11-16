@@ -80,6 +80,10 @@ body{
         position: relative;
     }
 
+    .display {
+        display: none;
+    }
+
     .nft__navbar-links-container {
         position: absolute;
         display: flex;

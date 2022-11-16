@@ -8,9 +8,11 @@ import { click } from "@testing-library/user-event/dist/click";
 
 const Navbar = ({ clicked, isClicked }) => {
   const [openModal, setOpenModal] = useState(false);
+  const [menu, setMenu] = useState(false)
 
   const handleClicked = () => {
-    isClicked(!clicked);
+    setMenu(!menu);
+    
   };
   return (
     <div className="nft__navbar">
@@ -19,7 +21,7 @@ const Navbar = ({ clicked, isClicked }) => {
           <img src="./images/bnb.png" alt="#logo" />
           <img src="./images/logo.png" alt="#textlogo" />
         </div>
-        <div className="nft__navbar-links-container">
+        <div className={`${!menu ? 'display': "nft__navbar-links-container"}`}>
           <p>
             <Link to="/">Home</Link>
           </p>
@@ -46,10 +48,10 @@ const Navbar = ({ clicked, isClicked }) => {
           </button>
           {openModal && <Modal closeModal={setOpenModal} />}
         </div>
-        {!clicked ? (
-          <RiMenu3Line onClick={handleClicked} className="icon" />
+        {!menu ? (
+          <RiMenu3Line onClick={()=>handleClicked()} className="icon" />
         ): (
-          <RiCloseLine onClick={handleClicked} className="icon"/>
+          <RiCloseLine onClick={()=>handleClicked()} className="icon"/>
         )}
       </div>
     </div>
