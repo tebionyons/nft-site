@@ -63,7 +63,7 @@ body{
     cursor: pointer;
 }
 
-@media(max-width: 480px){
+@media screen and (max-width: 480px){
     .icon{
         display: block;
         color: var(--gradient-txt);
@@ -86,7 +86,6 @@ body{
 
     .nft__navbar-links-container {
         position: absolute;
-        display: flex;
         flex-direction: column;
         align-items: center;
         right: 0%;
@@ -136,7 +135,7 @@ body{
         height: 40px;
     }
 }
-@media(max-width: 330px){
+@media screen and (max-width: 330px){
     .icon{
         display: block;
     }
@@ -161,7 +160,7 @@ body{
         height: 40px;
     }
 }
-@media(max-width: 380px){
+@media screen and (max-width: 380px){
     .icon{
         display: block;
     }
