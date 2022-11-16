@@ -21,7 +21,7 @@ const Navbar = ({ clicked, isClicked }) => {
           <img src="./images/bnb.png" alt="#logo" />
           <img src="./images/logo.png" alt="#textlogo" />
         </div>
-        <div className={`${!menu ? 'display nft__navbar-links-container': "nft__navbar-links-container"}`}>
+        <div className={`${!menu ? 'display': "nft__navbar-links-container"}`}>
           <p>
             <Link to="/">Home</Link>
           </p>

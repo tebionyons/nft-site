@@ -14,9 +14,6 @@ body{
     gap: 4rem;
     color: var(--gradient-txt);
     
-   
-   
-    
 }
 
 
@@ -62,6 +59,11 @@ body{
     display: none;
     font-size: 25px;
     cursor: pointer;
+}
+
+.display {
+    display: flex;
+    gap: 4rem;
 }
 
 @media screen and (max-width: 480px){
