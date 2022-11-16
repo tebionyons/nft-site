@@ -1,5 +1,6 @@
 .second__nav{
     display: flex;
+    
    justify-content: center;
     margin-top: 4rem;
     gap: 4rem;
@@ -42,3 +43,33 @@ input{
  height: 48px;
     width: 160px;
 }
+
+
+
+
+
+@media(max-width: 480px){
+ 
+    .second__nav{
+        margin-top: .1rem;
+        gap: 2rem;
+      
+        display: flex;
+        flex-direction: column
+        
+       
+        
+    }
+
+ 
+}
+
+
+@media(max-width: 380px){
+    .second__nav{
+        display: flex;
+        
+    }
+}
+   
+

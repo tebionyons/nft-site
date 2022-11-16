@@ -4,11 +4,22 @@ body{
     font-family: var(--font-family);
 }
 
-.nft__navbar-links-container{
-   display: flex;
-   flex-direction: row;
-   gap: 3.5rem;
+
+.nft__navbar-links-container {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    color: var(--gradient-txt);
+    
+   
+   
+    
 }
+
+
 .connect{
     display: flex;
     justify-content: flex-end;
@@ -20,15 +31,16 @@ body{
  justify-content: space-between;
  align-items: center;
  padding: 2rem 6rem;
- 
 
 }
 
 .nft__navbar-links{
     flex: 1;
     display: flex;
+
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .nft__navbar-links-logo img{
@@ -41,21 +53,9 @@ body{
     border-radius: 10px;
     border: none;
     height: 48px;
-    width: 170px;
+    width: 150px;
     cursor: pointer;
-}
-.nft__navbar-menu-links{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    flex-direction: column;
-
-    text-align: end;
-    position: absolute;
-    padding: 2rem;
-    right: 0;
-    top: 40px;
-
+    
 }
 
 .icon{
@@ -67,9 +67,57 @@ body{
 @media(max-width: 480px){
     .icon{
         display: block;
+        color: var(--gradient-txt);
     }
-    .nft__navbar p{
+ 
+
+    .nft__navbar {
+        padding: 2rem;
+    }
+
+    .nft__navbar-links {
+        position: relative;
+    }
+
+    .display {
         display: none;
+    }
+
+    .nft__navbar-links-container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        right: 0%;
+        top: 100%;
+        background: var(--gradient-txt);
+        color: white;
+        padding: 1rem 5rem;
+        
+    }
+
+    .nft__navbar-links-logo {
+        display: flex;
+        
+    }
+
+    .nft__navbar-links-logo img {
+        scale: 80%;
+    }
+
+    .nft__navbar-links-logo img:last-child {
+        margin: 0 -8%;
+    }
+
+    .openModalBtn {
+        height: 35px;
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .connect {
+        justify-content: flex-start;
+        margin-left: -10%;
     }
     .nft__navbar{
         display: flex;
@@ -91,50 +139,141 @@ body{
 @media(max-width: 330px){
     .icon{
         display: block;
+        color: var(--gradient-txt);
     }
-    .nft__navbar p{
+ 
+
+    .nft__navbar {
+        padding: 1rem;
+    }
+
+    .nft__navbar-links {
+        position: relative;
+    }
+
+    .display {
         display: none;
+    }
+
+    .nft__navbar-links-container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        right: 0%;
+        top: 100%;
+        background: var(--gradient-txt);
+        color: white;
+        padding: 1rem 5rem;
+        
+    }
+
+    .nft__navbar-links-logo {
+        display: flex;
+        
+    }
+
+    .nft__navbar-links-logo img {
+        scale: 80%;
+    }
+
+    .nft__navbar-links-logo img:last-child {
+        margin: 0 -8%;
+    }
+
+    .openModalBtn {
+        height: 35px;
+        width: 100px;
+       padding: .2px 10px;
+        
+       
+    }
+
+    .connect {
+        justify-content: flex-start;
+        margin-left: -10%;
     }
     .nft__navbar{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* padding: 2rem 1rem; */
+        padding: 2rem 0rem;
         
        
     }
-    .nft__navbar-links-logo img{
-        height: 18px;
-        
-    }
-    .openModalBtn{
-        width: 110px;
-        padding: .2rem .5rem;
-        height: 40px;
-    }
+    
+  
 }
 @media(max-width: 380px){
     .icon{
         display: block;
+        color: var(--gradient-txt);
     }
-    .nft__navbar p{
+ 
+
+    .nft__navbar {
+        padding: 2rem;
+    }
+
+    .nft__navbar-links {
+        position: relative;
+    }
+
+    .display {
         display: none;
+    }
+
+    .nft__navbar-links-container {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        right: 0%;
+        top: 100%;
+        background: var(--gradient-txt);
+        color: white;
+        padding: 1rem 5rem;
+        
+    }
+
+    .nft__navbar-links-logo {
+        display: flex;
+        
+    }
+
+    .nft__navbar-links-logo img {
+        scale: 80%;
+    }
+
+    .nft__navbar-links-logo img:last-child {
+        margin: 0 -8%;
+    }
+
+    .openModalBtn {
+        height: 35px;
+        width: 120px;
+        font-size: 12px;
+    }
+
+    .connect {
+        justify-content: flex-start;
+        margin-left: -10%;
     }
     .nft__navbar{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        /* padding: 2rem 1rem; */
+        padding: 2rem 1rem;
         
        
     }
     .nft__navbar-links-logo img{
-        height: 18px;
-        
+        height: 25px;
     }
     .openModalBtn{
-        width: 100%;
+        width: 140px;
         padding: .2rem .5rem;
-        height: 45px;
+        height: 40px;
+        
     }
 }
