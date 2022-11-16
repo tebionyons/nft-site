@@ -4,7 +4,7 @@ import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import Modal from "components/modal/Modal";
-import { click } from "@testing-library/user-event/dist/click";
+
 
 const Navbar = ({ clicked, isClicked }) => {
   const [openModal, setOpenModal] = useState(false);

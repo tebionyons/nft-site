@@ -20,9 +20,10 @@ const PlaceToStay = () => {
   return (
     <>
       <div>
-        <Navbar />
+        <Navbar className="nav__s" />
 
         <div className="second__nav">
+          
           <p>
             <a href="#home">Restaurant</a>
           </p>
